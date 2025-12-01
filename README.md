@@ -1,26 +1,35 @@
-#Front-end-project
-
-
 3D Image Slider
-This project is a 3D Image Slider built using HTML and CSS. It creates a visually appealing slider where images rotate in a 3D space, offering an engaging user experience.
+The 3D Image Slider is an interactive front-end project built with HTML5 and CSS3, designed to create an immersive visual experience through smooth, three-dimensional transitions. By combining modern CSS transformations with well-structured HTML, the slider delivers a dynamic and visually engaging interface suitable for portfolios, galleries, and modern web applications.
 
-Features
-Utilizes multiple <img> tags in the HTML to display images.
+✨ Features
+Multi-image Display
+Uses multiple <img> elements to showcase a collection of images within the slider.
 
-Employs CSS properties like perspective and transform to create the 3D effect.
+3D Visual Effects
+Leverages CSS properties such as perspective, transform, and transform-style to create depth and realistic 3D rotation.
 
-Uses mathematical formulas in CSS for smooth and dynamic rotation and positioning of images.
+Mathematically Driven Animation
+Image spacing, rotation angles, and positioning are calculated using CSS-based formulas, ensuring smooth transitions and perfectly distributed elements in 3D space.
 
+Smooth, Continuous Rotation
+Images rotate seamlessly around a central axis, producing a modern carousel-like effect.
 
-How it Works
-Each image is positioned and rotated in 3D space using CSS transform properties.
+🔧 How It Works
+Each image is placed in a circular 3D layout using transform: rotateY() and translateZ().
 
-The perspective property is applied to give depth and realism to the slider.
+A global perspective value is applied to the container, giving the illusion of depth and spatial rotation.
 
-The rotation and translation of images are controlled through formulas that dynamically space and angle the images for a seamless slider effect.
+CSS animations rotate the entire image set, allowing the slider to cycle through images automatically.
 
-Technologies Used
+Mathematical formulas determine the angle and distance of each image from the center, ensuring equal spacing and a clean 3D structure.
 
-HTML5
+🛠️ Technologies Used
+HTML5 – for structuring the slider and embedding images.
 
-CSS3 (including perspective, transform, and advanced selectors)
+CSS3 – for creating 3D effects using:
+
+perspective
+
+transform (rotateY, translateZ, etc.)
+
+Advanced selectors and animations
